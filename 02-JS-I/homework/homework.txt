@@ -1,0 +1,18 @@
+VARIABLE: es un "simbolo" que asignamos el mismo puede contener un valor y que puede adeas ir cambiando a lo 
+largo del pryecto.
+
+STRINGS: Cadena de caracteres que puede estar compuesta por numeros, letras y simbolos los cuales siempre 
+deben ir escritos entre comillas ("").
+
+FUNCIONES(ARGUMENTOS; RETURN): las funciones son lineas de codigo que se crean cuando un codigo va a ser usado 
+varias veces, para no escribir nuevamente el codigo se declara una funcion con el codigo necesitado que se 
+invocara las veces que sea necesario.
+ARGUMENTO: es basicamente lo que hace la funcion, es el codigo que describe lo que hace la funcion.
+RETURN: devuelve en pantalla un resultado de cualquier tipo ya sea de una funcion, mostrar una variable, el 
+resultado de una operacion o simplemente un mensaje.
+
+DECLARACIONES "if": es un condicional que te permite crear bucles en los que se cumple alguna de las 
+instrucciones declaradas
+
+VALORES BOOOLEANOS(TRUE, FALSE) son operaciones en las cuales el resultado solo puede ser TRUE(verdadero) o 
+FALSE(falso).
