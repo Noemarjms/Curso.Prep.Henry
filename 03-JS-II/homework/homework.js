@@ -73,22 +73,18 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  if (color==="blue") {
+  switch(color) {
+    case "blue":    
     return "This is blue";
-  }else {
-    if (color==="red") {
-      return "This is red";
-    }else {
-      if (color==="green") {
-        return "This is green"
-      }else {
-        if (color==="orange") {
-          return "This is orange";
-        }else
-        return "Color not found";
-      }
-    }
-  }
+    case "red":
+    return "This is red";
+    case "green":
+    return  "This is green";
+    case "orange":
+    return"This is orange";
+    default:
+    return"Color not found";
+  }  
 }
 
 
@@ -121,9 +117,9 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero%1===0) {
+  if (Math.floor(numero)===numero) {
     return true;
-  } else
+  }
   return false;
 }
 
@@ -173,12 +169,13 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   
-for (var i=2; i<numero; i++)
+for (var i=2; i<numero; i++){
   if (numero%i===1){
     return true;
 }else 
   return false;
 
+}
 }
 
 
